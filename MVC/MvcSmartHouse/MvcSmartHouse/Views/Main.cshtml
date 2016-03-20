@@ -1,0 +1,37 @@
+﻿
+<!Doctype html>
+<html>
+<head>
+    <title>MVC Smatr House</title>
+    <link href="/Content/DeviсePanel.css" rel="stylesheet"/>
+    </head>
+<body>
+    <div id="main">
+      <div id="picture">
+       <img src="/Content/Images/MasterPage/top.JPG" >
+       </div>
+       <div id="button">
+           <a href="~/SmartHouse/ChouseDevice/tv">
+               <img src="/Content/Images/MasterPage/tv.png" id="image"></a>
+           <a href="~/SmartHouse/ChouseDevice/fridge">
+               <img src="/Content/Images/MasterPage/fridge.png" id="image"></a>
+            <a href="~/SmartHouse/ChouseDevice/cond">
+                <img src="/Content/Images/MasterPage/cond.png" id="image"></a>
+            <a href="~/SmartHouse/ChouseDevice/tr">
+                <img src="/Content/Images/MasterPage/Tr.png" id="image"></a>
+            <a href="~/SmartHouse/ChouseDevice/lamp">
+                <img src="/Content/Images/MasterPage/lamp.png" id="image"></a>
+            <a href="~/SmartHouse/ChouseDevice/kettle">
+                <img src="/Content/Images/MasterPage/kettl.png" id="image"></a>
+
+           <a href="~/SmartHouse/Add">
+               <img src="~/Content/Images/MasterPage/add.jpg" id="image" class="dopleft">
+           </a>
+
+</div>
+       <div id="workarea">
+           @RenderBody();
+       </div>
+  </div>
+</body>
+</html>
